@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="introStyle.css">3
+    <title>Document</title>
+</head>
+<body>
+    <h3>자기소개를 해봅시다!</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwnNO98e9hFuH7SZUIdwMuiWkVYh2F5ezaQ&usqp=CAU" width="20%" height="20%"></fieldset>
+    <p class="colorPink"> 이름 : 조수민 </p>
+    <p>나이 : 25(만 24) </p>
+    <p>취미 : 애니메이션 감상 <a href="https://www.watcha.com" target="_blank">왓챠</a> </p>
+    <p>좋아하는 음식 : 스시, 마라탕, 라면 등</p>
+    <p>소개 : 안녕하세요 🙌</p>
+
+    <form>
+        <fieldset>
+           <legend>자기소개를 해봅시다!</legend>
+           <h2>프로필 사진</h2>
+           <input type="file"><br>
+           <label for="name" class="colorPink">이름 :</label>
+           <input type="text" id="name" name="이름" placeholder="이름"><br>
+           <label for="age">나이 :</label>
+           <input type="text" id="age" name="나이" placeholder="나이"><br>
+           <label for="hobby" class="colorPink">취미 :</label>
+           <input type="text" id="hobby" name="취미" placeholder="취미"><br>
+           <br>
+           <label for="foods">좋아하는 음식 종류</label>
+           <select name="좋아하는 음식 종류" id="food">
+            <option class="foods" value="korean">한식</option>
+            <option class="foods" value="western">양식</option>
+            <option class="foods" value="chinese">중식</option>
+            <option class="foods" value="japanese" selected>일식</option>
+            <option class="foods" value="fastfood">패스트푸드</option>
+            <option class="foods" value="asian">아시안</option>
+        </select><br>
+        <p>자기소개 : </p>
+        <textarea name="자기소개" id="selfintro" cols="30" rows="10" placeholder="간단하게 소개글을 작성해주세요"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

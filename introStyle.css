@@ -1,0 +1,9 @@
+.colorPink{
+    color:pink;
+}
+#name{
+    color:white;
+    background-color: plum;
+    font-size: 36px;
+    font-weight: bold;
+}
